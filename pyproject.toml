@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qdrant-notebooks"
+version = "0.1.0"
+description = "Notebooks to work with Qdrant"
+authors = ["Michael Nau <michaelwnau@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
